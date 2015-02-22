@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
     
     @IBAction func myButton(sender: AnyObject) {
-        myLabel.text = "u punched the donkey"
+        myLabel.text = "u punched the donkey again"
     }
     
     
