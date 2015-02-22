@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+    
     @IBOutlet weak var myLabel: UILabel!
     
     @IBAction func myButton(sender: AnyObject) {
@@ -20,6 +22,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.view.backgroundColor = UIColor.redColor()
     }
 
     override func didReceiveMemoryWarning() {
